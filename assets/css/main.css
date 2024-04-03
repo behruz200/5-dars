@@ -1,0 +1,323 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+.container {
+    max-width: 1400px;
+    border: 1px solid;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 540px;
+    /* padding: 35px 165px; */
+    margin-left: -90px;
+}
+
+a img {
+    max-width: 130px;
+    height: 39px;
+    top: 60px;
+    left: 165px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    margin-left: 165px;
+    margin-top: -60px;
+}
+
+.btn {
+    width: 181px;
+    height: 60px;
+    top: 602px;
+    left: 165px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #0F0F54;
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.87px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    transition: 0.5s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid #0F0F54;
+    transition: 0.5s;
+}
+
+.h1 {
+    font-family: SF Pro Display;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 95.47px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+
+.plar {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.yul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.suzlar {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.h2 {
+    font-family: SF Pro Display;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59.67px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: white;
+}
+
+.h3 {
+    font-family: SF Pro Display;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 59.67px;
+    letter-spacing: -0.01em;
+    text-align: left;
+
+}
+
+.p1 {
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: left;
+
+}
+
+.text {
+    color: white;
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: left;
+
+}
+
+.gul {
+    margin-left: 165px;
+}
+
+.df {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.chailt1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1065px;
+}
+
+.chailt2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.chailt3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1110px;
+    height: 480px;
+    /* top: 1822px;
+    left: 165px; */
+    gap: 7px;
+    border-radius: 20px;
+    opacity: 0px;
+    background-color: #0F0F54;
+    margin-left: 150px;
+    margin-top: 200px;
+}
+
+.chailt4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 68px;
+    margin-top: 200px;
+}
+
+.chailt5 {
+    width: 1110px;
+    height: 480px;
+    background-color: #F9E0C7;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.p16 {
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: left;
+
+}
+
+.h116 {
+    font-family: SF Pro Display;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59.67px;
+    letter-spacing: -0.01em;
+    text-align: left;
+
+}
+
+.chailt6 {
+    margin-top: 150px;
+    margin-left: 1150px;
+}
+
+.chailt7 {
+    width: 1110px;
+    height: 480px;
+    top: 4184px;
+    left: 165px;
+    gap: 0px;
+    border-radius: 20px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #F8F8F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 0 auto;
+
+}
+
+.klar {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: -150px;
+}
+
+.i {
+    margin-left: 150px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 150px;
+}
+
+.barcha {
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+
+}
+.fecu{
+    width: 24px;
+    height: 24px;
+}
+
+.nomer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.tel {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 20px;
+}
+.class1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.form {
+    display: flex;
+    cursor: pointer;
+}
+
+.class3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.ekonke {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ul {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
