@@ -33,7 +33,9 @@ a img {
     opacity: 0px;
 
 }
-
+.gut{
+    margin-left: 150px;
+}
 .main {
     display: flex;
     align-items: center;
